@@ -9,6 +9,8 @@ Para começar a usar a aplicação, siga estas etapas:
     git clone git@github.com:andre3392/portallegalh2-v2.git
 #### Acessar o Diretório src/app:
     cd src/app
+#### Instalar as dependências:
+    pip install -r requirements.txt
 #### Iniciar o Servidor Uvicorn:
     uvicorn server:app --reload
 ## Acessar a Documentação:
