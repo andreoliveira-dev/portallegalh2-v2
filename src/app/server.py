@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from acquisition.news_acquisition_service import acquisition_news
+from scripts.news_acquisition_service import acquisition_news
 
 app = FastAPI()
 
